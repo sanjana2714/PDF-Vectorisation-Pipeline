@@ -1,0 +1,24 @@
+# Core LangChain
+langchain>=0.3.0
+langchain-community>=0.3.0
+langchain-huggingface>=0.1.0
+
+# LangGraph (bonus)
+langgraph>=0.2.0
+
+# PDF loading
+pypdf>=4.0.0
+
+# Embeddings
+sentence-transformers>=3.0.0
+
+# Vector store
+faiss-cpu>=1.8.0
+
+# API server
+fastapi>=0.115.0
+uvicorn[standard]>=0.30.0
+pydantic>=2.0.0
+
+# Utilities
+python-multipart>=0.0.9
