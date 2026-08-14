@@ -21,5 +21,12 @@ env/
 .DS_Store
 Thumbs.db
 
-# Hugging Face model cache (large, not needed in repo)
-# vectorstore/ is intentionally included for demo purposes
+# Environment & Testing
+.env
+.pytest_cache/
+
+# Generated Runtime Artifacts
+vectorstore/
+*.faiss
+*.pkl
+*.checksum
